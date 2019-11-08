@@ -25,6 +25,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping("/users")
+@CrossOrigin(origins = "http://localhost:8081")
 public class UserController {
 
     @Autowired
